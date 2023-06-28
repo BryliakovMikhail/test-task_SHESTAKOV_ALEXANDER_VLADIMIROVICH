@@ -1,0 +1,14 @@
+.main {
+  padding: 120px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+@media (max-width: 375px) {
+  .main {
+    padding: 74px 0 146px 0;
+  }
+}
